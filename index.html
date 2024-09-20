@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Find expert teeth doctors for all dental services, including teeth cleaning, fillings, root canals, and more. Book your appointment today for a healthy smile.">
+    <meta name="keywords"
+        content="teeth doctors, dentists, dental services, teeth cleaning, fillings, root canal, dental appointments, dental care">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags (for Social Media Sharing) -->
+    <meta property="og:title" content="Expert Teeth Doctors | Book Your Appointment Now">
+    <meta property="og:description"
+        content="Connect with professional dentists offering a wide range of dental services. Get expert care for your teeth today.">
+    <meta property="og:image" content="https://yourwebsite.com/images/og-image.jpg">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Expert Teeth Doctors | Book Your Appointment Now">
+    <meta name="twitter:description"
+        content="Find expert teeth doctors and book your dental care appointment with ease.">
+    <meta name="twitter:image" content="https://yourwebsite.com/images/twitter-card.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/img/homeimages/logo_dark.png" type="image/x-icon">
+
+    <!-- Title -->
+    <title>Segam - Expert Dental Care and Services</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Schema.org Structured Data (JSON-LD for Local Business) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "Teeth Doctors Clinic",
+      "image": "https://yourwebsite.com/images/clinic.jpg",
+      "@id": "https://yourwebsite.com",
+      "url": "https://yourwebsite.com",
+      "telephone": "+1-800-555-1234",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Dental St",
+        "addressLocality": "Toothville",
+        "addressRegion": "CA",
+        "postalCode": "90001",
+        "addressCountry": "US"
+      },
+      "priceRange": "$$",
+      "description": "Expert dental care from professional teeth doctors offering services like teeth cleaning, root canals, and more.",
+      "openingHours": "Mo-Fr 09:00-17:00",
+      "sameAs": [
+        "https://www.facebook.com/teethdoctors",
+        "https://www.instagram.com/teethdoctors"
+      ]
+    }
+    </script>
+
+    <!-- Custom Script for Menu -->
+    <script>
+        function toggleMenu() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        }
+    </script>
+
+</head>
+
+<body class="bg-[#fef4f2]">
+    <!-- header -->
+    <div class="Hero w-full h-[100vh] bg-[url('./assets/img/homeimages/hero.png')] bg-cover bg-center">
+        <!-- Header -->
+        <header
+            class="Header w-full px-4 py-3 md:py-0 md:px-[50px] top-0 absolute bg-black/30 backdrop-blur-[20px] flex justify-between items-center bg-gradient-to-t from-[#212222] to-[black] z-40">
+            <div class="flex items-center">
+                <img class="w-[120px] md:w-[187px] h-auto" src="./assets/img/homeimages/logo.png" alt="Logo">
+            </div>
+            <!-- Hamburger Icon (visible on smaller screens) -->
+            <div class="md:hidden flex items-center">
+                <button class="text-white" onclick="toggleMenu()">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex space-x-4">
+                <div class="LinkHeader px-2.5 py-6 border-b-2 border-[#eb6a48] flex items-center gap-2.5">
+                    <div class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full"></div>
+                    <a href="./index.html" class="text-white text-base">الرئيسية</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./whySegam.html" class="text-white text-base">ليش سجام</a>
+                </div>
+
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./services.html" class="text-white text-base">الخدمات</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./doctors.html" class="text-white text-base">أطباونا</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./old.html" class="text-white text-base">تجاربكم</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./kids.html" class="text-white text-base">Kids</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./garnyWithSegam.html" class="text-white text-base">رحلتك مع سجام</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./blog.html" class="text-white text-base">المدونة</a>
+                </div>
+            </nav>
+            <!-- Mobile Navigation Links (hidden by default) -->
+            <nav id="mobile-menu"
+                class="hidden flex-col space-y-2 md:hidden absolute top-full right-0 bg-black/95 backdrop-blur-[10px] w-full px-6 py-4">
+                <div class="LinkHeader px-2.5 py-2 border-b-2 border-[#eb6a48] flex items-center gap-2.5">
+                    <div class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full"></div>
+                    <a href="./index.html" class="text-white text-base">الرئيسية</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./whySegam.html" class="text-white text-base">ليش سجام</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="" class="text-white text-base">الخدمات</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="" class="text-white text-base">أطباونا</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="" class="text-white text-base">تجاربكم</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="" class="text-white text-base">Kids</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="" class="text-white text-base">رحلتك مع سجام</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="" class="text-white text-base">المدونة</a>
+                </div>
+            </nav>
+
+            <div
+                class="w-[180px] h-[55px] px-6 bg-[#507a8a] rounded-full border border-white flex justify-center items-center relative">
+                <!-- Star Images -->
+                <img class="absolute left-[0px] top-[10px]" src="./assets/img/homeimages/Star1.png" alt="Star">
+                <img class="absolute right-[-10px] top-[15px]" width="25" src="./assets/img/homeimages/Star1.png"
+                    alt="Star">
+                <img class="absolute right-[60px] top-[5px]" src="./assets/img/homeimages/Star1.png" alt="Star">
+
+                <!-- Whatsapp -->
+                <span class="[&>svg]:h-5 [&>svg]:w-5 text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                        <path
+                            d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                    </svg>
+                </span>
+                <!-- Text -->
+                <a href="" class="text-white text-sm md:text-[15px] mx-3">تواصل معنا </a>
+            </div>
+
+        </header>
+        <!-- Hero Section -->
+        <hero
+            class="Component2 absolute right-4 md:right-[100px] top-1/2 transform -translate-y-1/2 max-w-full md:max-w-[500px] p-4 z-0">
+            <div class="Frame21 flex flex-col space-y-4 gap-10">
+                <div class="flex items-center justify-between gap-4">
+                    <div class="text-white text-6xl md:text-[77px] font-bold">ابتسامتك</div>
+                    <img class="w-[100px] md:w-[160px] h-auto rounded-[323.23px]"
+                        src="./assets/img/homeimages/smile.png" alt="ابتسامتك">
+                </div>
+                <div class="flex items-center justify-between gap-4]">
+                    <img class="w-[100px] md:w-[160px] h-auto rounded-[323.23px]"
+                        src="./assets/img/homeimages/smail-weman.png" alt="أمــــــــانتنا">
+                    <div class="text-white text-6xl md:text-[77px] font-bold"> أمــــــــانتنا</div>
+                </div>
+            </div>
+            <div class="text-[#dcdcdc] text-sm md:text-xl leading-loose mt-5">
+                نقدم خدمات طب الأسنان بأعلى معايير الجودة لنضمن لك ابتسامة صحية وجميلة.
+            </div>
+            <div
+                class="Frame14 w-[100px] md:w-[120px] h-[40px] p-2 bg-[#eb6a48] rounded-full mt-5 flex justify-center items-center">
+                <img class="mb-[-10px]" src="./assets/img/homeimages/Star1.png" alt="Star">
+                <a href="" class="text-white text-sm font-semibold mx-3">احجز الان</a>
+                <img class="mt-[-10px]" src="./assets/img/homeimages/Star1.png">
+            </div>
+        </hero>
+        <!-- Doctors Section -->
+        <section
+            class="Frame1000004069 p-1 left-[16.10px] bottom-[10px] absolute bg-white/0 rounded-[130.64px] backdrop-blur-[20.10px] flex-col justify-center items-center gap-2.5 inline-flex">
+            <div class="Frame1000004068 justify-start items-center inline-flex">
+                <img class="Image31 w-[41.20px] h-[41.20px] rounded-[119.86px] border border-white ml-[-10px]"
+                    src="./assets/img/homeimages/doctor1.png" />
+                <img class="Image32 w-[41.20px] h-[41.20px] rounded-[119.86px] border border-white ml-[-10px]"
+                    src="./assets/img/homeimages/doctor2.png" />
+                <div
+                    class="Frame1000004067 w-[41.20px] h-[41.20px] px-2 py-[15.07px] bg-[#fde8e3] rounded-[119.86px] border border-white flex-col justify-center items-center gap-2.5 inline-flex">
+                    <div class="20 text-right text-[#eb6a48] text-sm font-extrabold font-['Roboto'] leading-snug">+20
+                    </div>
+                </div>
+                <div class="text-white text-sm md:text-lg font-semibold mr-[5px]"> من أكفأ الاطباء </div>
+            </div>
+        </section>
+    </div>
+    <!-- section one -->
+    <section class="px-0 lg:px-3 lg:px-[200px] mt-10">
+        <div class="grid grid-cols-1 grid-rows-1 md:grid-cols-2 gap-[100px]">
+            <div class="me-4 block rounded-lg shadow-secondary-1">
+                <div class="p-3">
+                    <div class="Frame48 w-[50px] h-[50px] justify-center items-center gap-2.5 inline-flex">
+                        <img src="./assets/img/homeimages/Frame 48.png" alt="">
+                    </div>
+                    <div class="Frame29 self-stretch h-auto md:h-[252px] flex-col justify-start items-start gap-4 flex">
+                        <div class="self-stretch text-right">
+                            <span
+                                class="text-[#e8604b] text-[40px] md:text-[70.96px] font-bold font-['Segoe UI'] leading-tight md:leading-[92.25px]">افضل</span>
+                            <span
+                                class="text-[#292929] text-[40px] md:text-[70.96px] font-bold font-['Segoe UI'] leading-tight md:leading-[92.25px]">
+                                الكوادر<br />
+                            </span>
+                            <span
+                                class="text-[#292929] text-[40px] md:text-[70.96px] font-bold font-['Segoe UI'] leading-tight md:leading-[92.25px]">
+                                و التقنيات
+                            </span>
+                        </div>
+                        <div
+                            class="w-full md:w-[440px] text-right text-neutral-600 text-base md:text-xl font-normal font-['Segoe UI'] leading-relaxed">
+                            كوَّنا على مر السنين معرفة تامة بالمراجع من خلال آلاف المرضى الذين عالجوهم نخبة أطبائنا
+                            واستشاريينا.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" rounded-lg shadow-secondary-1">
+                <div class="p-3 flex flex-wrap gap-3">
+                    <img class="Image w-[45%] md:w-[212.60px] h-[233.31px] left-0 top-0  rounded-[13.81px]"
+                        src="./assets/img/homeimages/section1-d1.png" />
+                    <img class="Image w-[45%] md:w-[212.60px] h-[233.31px] left-[50%] md:left-[226.40px] top-[26.23px]  rounded-[13.81px] mt-[-30px]"
+                        src="./assets/img/homeimages/section1-d3.png" />
+                    <img class="Image w-[45%] md:w-[212.60px] h-[233.31px] left-0 top-[247.11px] rounded-[13.81px]"
+                        src="./assets/img/homeimages/section1-d2.png" />
+                    <img class="Image w-[45%] md:w-[212.60px] h-[233.31px] left-[50%] md:left-[226.40px] top-[273.34px] rounded-[13.81px] mt-[-30px]"
+                        src="./assets/img/homeimages/section1-d4.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section tow -->
+    <section class="px-0 lg:px-3 lg:px-[200px] mt-10">
+        <div class="grid grid-cols-1 grid-rows-1 md:grid-cols-2 gap-[100px]">
+            <div class="block rounded-lg shadow-secondary-1">
+                <div class="p-3 Frame46 ml-0 md:ml-[100px] h-[457.62px] relative ">
+                    <div
+                        class="Ellipse2 w-[410px] h-[411px] left-[44px] top-[23px] absolute rounded-full border-2 border-[#eb6a48]">
+                    </div>
+                    <img class="Image w-[114px] h-[131px] left-[69px] top-[70px] absolute rounded-[10px]"
+                        src="./assets/img/homeimages/smail-p3.png" />
+                    <img class="Image w-[206.02px] h-[236.62px] left-[12px] top-[221px] absolute rounded-[10px]"
+                        src="./assets/img/homeimages/smail-p4.png" />
+                    <img class="Image w-28 h-[130px] left-[239px] top-[349px] absolute rounded-[10px]"
+                        src="./assets/img/homeimages/smail-p5.png" />
+                    <img class="Image w-[122px] h-[141px] left-[203px] top-[-12px] absolute rounded-[10px]"
+                        src="./assets/img/homeimages/smail-p1.png" />
+                    <img class="Image w-[156px] h-[180px] left-[284px] top-[149px] absolute rounded-[10px]"
+                        src="./assets/img/homeimages/smail-p2.png" />
+                    <div class="Ellipse3 w-[27px] h-[27px] left-[386px] top-[76px] absolute bg-[#eb6a48] rounded-full">
+                    </div>
+                    <div
+                        class="Ellipse4 w-[27px] h-[27px] left-[386px] top-[76px] absolute bg-[#eb6a48] rounded-full blur-[13.30px]">
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-lg p-3 shadow-secondary-1">
+                <div class="Frame27 flex-col justify-start items-start gap-2 inline-flex"></div>
+                <div class="Frame48 w-[50px] h-[50px] justify-center items-center gap-2.5 inline-flex">
+                    <img src="./assets/img/homeimages/Frame49.png" alt="">
+                </div>
+                <div class="Frame29 self-stretch h-[252px] flex-col justify-start items-start gap-4 flex">
+                    <div class=" self-stretch text-right"><span
+                            class="text-[#292929] text-[70.96px] font-bold font-['Segoe UI'] leading-[92.25px]">الرعاية
+                            الأفضل
+                        </span><span
+                            class="text-[#eb6a48] text-[70.96px] font-bold font-['Segoe UI'] leading-[92.25px]">لأسنانك</span>
+                    </div>
+                    <div class=" text-right text-neutral-600 text-xl font-normal font-['Segoe UI'] leading-relaxed">
+                        سواء كنت بحاجة لعلاج أسنان أو تجميل، نحن هنا لنمنحك الابتسامة التي تستحقها.</div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- section three -->
+    <section class="px-0 lg:px-3 lg:px-[200px] mt-[70px]">
+        <div class="grid grid-cols-1 grid-rows-1 md:grid-cols-2 gap-[100px]">
+            <div class="me-4 block rounded-lg shadow-secondary-1">
+                <div class="p-3">
+                    <div class="Frame48 w-[50px] h-[50px] justify-center items-center gap-2.5 inline-flex">
+                        <img src="./assets/img/homeimages/Frame50.png" alt="">
+                    </div>
+                    <div class="Frame29 self-stretch h-[252px] flex-col justify-start items-start gap-4 flex">
+                        <div class=" self-stretch text-right"><span
+                                class="text-[#292929] text-[70.96px] font-bold font-['Segoe UI'] leading-[92.25px]">رعايتك
+                                تبدأ
+                            </span><span
+                                class="text-[#e8604b] text-[70.96px] font-bold font-['Segoe UI'] leading-[92.25px]">بابتسامتك</span>
+                        </div>
+                        <div
+                            class=" w-[100%] text-right text-neutral-600 text-xl font-normal font-['Segoe UI'] leading-relaxed">
+                            نحن ملتزمون بتقديم أفضل العناية بأسنانك لتمنحك ابتسامة مشرقة وصحية تدوم.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-lg shadow-secondary-1 p-3">
+                <div class="flex flex-wrap gap-3">
+                    <div class="bg-red-500 rounded-lg shadow-secondary-1">
+                        <div class="MaskGroup w-[100%] h-[434px] relative bg-[#fef4f2]">
+                            <img class="Union w-[100%] h-[434px]" src="./assets/img/homeimages/smail-p6.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section four -->
+    <section>
+        <div class="Frame50 w-full h-auto p-5 md:p-[50px] flex-col justify-center items-center gap-2.5 inline-flex">
+            <div class="Frame53 bg-white w-full rounded-[20px] flex-col justify-center items-start gap-2.5 flex">
+                <div
+                    class="Frame71 w-full h-auto flex-col justify-start items-start gap-[41px] flex p-5 overflow-hidden">
+                    <div class="Frame70 self-stretch px-5 justify-between items-center inline-flex">
+                        <div class="Frame52 p-5 justify-center items-center gap-4 flex">
+                            <div class="Rectangle32 w-[43px] h-[43px] bg-[#ffbead] rounded-[50px]"></div>
+                            <div
+                                class="mr-[-40px] text-right text-[#1e282e] text-2xl font-semibold font-['Segoe UI'] leading-[31.20px]">
+                                خدماتنا المتميزة لرعاية أسنانك
+                            </div>
+                        </div>
+                        <div class="flex gap-5">
+                            <button id="prevBtn" class="bg-red-500 p-3 rounded-lg text-white">
+                                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="9 6 15 12 9 18" />
+                                </svg>
+                            </button>
+                            <button id="nextBtn" class="bg-red-500 p-3 rounded-lg text-white">
+                                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="15 6 9 12 15 18" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="slider"
+                        class="Frame69 flex justify-start items-center gap-5  scrollbar-hide whitespace-nowrap">
+                        <div class="slide inline-block">
+                            <div
+                                class="Frame62 w-[154px] h-[200px] p-5 bg-white rounded-[15px] border border-[#ebebeb] transition duration-300 ease-in-out hover:shadow-2xl hover:mt-[-40px] justify-center items-center gap-2.5 flex">
+                                <div
+                                    class="Frame57 w-[117px] self-stretch flex-col justify-center items-center gap-[19px] inline-flex">
+                                    <div class="">
+                                        <img src="./assets/img/homeimages/teeth1.png" alt="">
+                                    </div>
+                                    <div
+                                        class="Frame56 self-stretch h-[51px] flex-col justify-start items-center gap-3 flex">
+                                        <div
+                                            class=" self-stretch text-center text-[#292929] text-[15px] font-bold font-['Segoe UI'] leading-tight">
+                                            طب تقويم الأسنان</div>
+                                        <div class="Frame55 self-stretch justify-between items-center inline-flex">
+                                            <div class="Frame w-5 h-5 py-[5px] justify-center items-center flex"></div>
+                                            <a href=""
+                                                class="text-[#3d3d3d] text-[13px] font-['Segoe UI'] leading-[16.90px] flex gap-2">
+                                                <span> التعرف على المزيد</span>
+                                                <svg class="h-4 w-4 text-gray-500" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <polyline points="15 6 9 12 15 18" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide inline-block ">
+                            <div
+                                class="Frame62 w-[154px] h-[200px] p-5 bg-white rounded-[15px] border border-[#ebebeb] transition duration-300 ease-in-out hover:shadow-2xl hover:mt-[-40px] justify-center items-center gap-2.5 flex">
+                                <div
+                                    class="Frame57 w-[117px] self-stretch flex-col justify-center items-center gap-[19px] inline-flex">
+                                    <div class="">
+                                        <img src="./assets/img/homeimages/teeth2.png" alt="">
+                                    </div>
+                                    <div
+                                        class="Frame56 self-stretch h-[51px] flex-col justify-start items-center gap-3 flex">
+                                        <div
+                                            class=" self-stretch text-center text-[#292929] text-[15px] font-bold font-['Segoe UI'] leading-tight">
+                                            علاج الجذور</div>
+                                        <div class="Frame55 self-stretch justify-between items-center inline-flex">
+                                            <div class="Frame w-5 h-5 py-[5px] justify-center items-center flex"></div>
+                                            <a href=""
+                                                class="text-[#3d3d3d] text-[13px] font-['Segoe UI'] leading-[16.90px] flex gap-2">
+                                                <span> التعرف على المزيد</span>
+                                                <svg class="h-4 w-4 text-gray-500" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <polyline points="15 6 9 12 15 18" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide inline-block ">
+                            <div
+                                class="Frame62 w-[154px] h-[200px] p-5 bg-white rounded-[15px] border border-[#ebebeb] transition duration-300 ease-in-out hover:shadow-2xl hover:mt-[-40px] justify-center items-center gap-2.5 flex">
+                                <div
+                                    class="Frame57 w-[117px] self-stretch flex-col justify-center items-center gap-[19px] inline-flex">
+                                    <div class="">
+                                        <img src="./assets/img/homeimages/teeth3.png" alt="">
+                                    </div>
+                                    <div
+                                        class="Frame56 self-stretch h-[51px] flex-col justify-start items-center gap-3 flex">
+                                        <div
+                                            class=" self-stretch text-center text-[#292929] text-[15px] font-bold font-['Segoe UI'] leading-tight">
+                                            جراحة الفم</div>
+                                        <div class="Frame55 self-stretch justify-between items-center inline-flex">
+                                            <div class="Frame w-5 h-5 py-[5px] justify-center items-center flex"></div>
+                                            <a href=""
+                                                class="text-[#3d3d3d] text-[13px] font-['Segoe UI'] leading-[16.90px] flex gap-2">
+                                                <span> التعرف على المزيد</span>
+                                                <svg class="h-4 w-4 text-gray-500" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <polyline points="15 6 9 12 15 18" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide inline-block ">
+                            <div
+                                class="Frame62 w-[154px] h-[200px] p-5 bg-white rounded-[15px] border border-[#ebebeb] transition duration-300 ease-in-out hover:shadow-2xl hover:mt-[-40px] justify-center items-center gap-2.5 flex">
+                                <div
+                                    class="Frame57 w-[117px] self-stretch flex-col justify-center items-center gap-[19px] inline-flex">
+                                    <div class="">
+                                        <img src="./assets/img/homeimages/teeth4.png" alt="">
+                                    </div>
+                                    <div
+                                        class="Frame56 self-stretch h-[51px] flex-col justify-start items-center gap-3 flex">
+                                        <div
+                                            class=" self-stretch text-center text-[#292929] text-[15px] font-bold font-['Segoe UI'] leading-tight">
+                                            العلاج الوقائي</div>
+                                        <div class="Frame55 self-stretch justify-between items-center inline-flex">
+                                            <div class="Frame w-5 h-5 py-[5px] justify-center items-center flex"></div>
+                                            <a href=""
+                                                class="text-[#3d3d3d] text-[13px] font-['Segoe UI'] leading-[16.90px] flex gap-2">
+                                                <span> التعرف على المزيد</span>
+                                                <svg class="h-4 w-4 text-gray-500" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <polyline points="15 6 9 12 15 18" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slide inline-block ">
+                            <div
+                                class="Frame62 w-[154px] h-[200px] p-5 bg-white rounded-[15px] border border-[#ebebeb] transition duration-300 ease-in-out hover:shadow-2xl hover:mt-[-40px] justify-center items-center gap-2.5 flex">
+                                <div
+                                    class="Frame57 w-[117px] self-stretch flex-col justify-center items-center gap-[19px] inline-flex">
+                                    <div class="">
+                                        <img src="./assets/img/homeimages/teeth5.png" alt="">
+                                    </div>
+                                    <div
+                                        class="Frame56 self-stretch h-[51px] flex-col justify-start items-center gap-3 flex">
+                                        <div
+                                            class=" self-stretch text-center text-[#292929] text-[15px] font-bold font-['Segoe UI'] leading-tight">
+                                            طب أسنان الأطفال</div>
+                                        <div class="Frame55 self-stretch justify-between items-center inline-flex">
+                                            <div class="Frame w-5 h-5 py-[5px] justify-center items-center flex"></div>
+                                            <a href=""
+                                                class="text-[#3d3d3d] text-[13px] font-['Segoe UI'] leading-[16.90px] flex gap-2">
+                                                <span> التعرف على المزيد</span>
+                                                <svg class="h-4 w-4 text-gray-500" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <polyline points="15 6 9 12 15 18" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide inline-block ">
+                            <div
+                                class="Frame62 w-[154px] h-[200px] p-5 bg-white rounded-[15px] border border-[#ebebeb] transition duration-300 ease-in-out hover:shadow-2xl hover:mt-[-40px] justify-center items-center gap-2.5 flex">
+                                <div
+                                    class="Frame57 w-[117px] self-stretch flex-col justify-center items-center gap-[19px] inline-flex">
+                                    <div class="">
+                                        <img src="./assets/img/homeimages/teeth6.png" alt="">
+                                    </div>
+                                    <div
+                                        class="Frame56 self-stretch h-[51px] flex-col justify-start items-center gap-3 flex">
+                                        <div
+                                            class=" self-stretch text-center text-[#292929] text-[15px] font-bold font-['Segoe UI'] leading-tight">
+                                            الإستعاضة السنية</div>
+                                        <div class="Frame55 self-stretch justify-between items-center inline-flex">
+                                            <div class="Frame w-5 h-5 py-[5px] justify-center items-center flex"></div>
+                                            <a href=""
+                                                class="text-[#3d3d3d] text-[13px] font-['Segoe UI'] leading-[16.90px] flex gap-2">
+                                                <span> التعرف على المزيد</span>
+                                                <svg class="h-4 w-4 text-gray-500" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <polyline points="15 6 9 12 15 18" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide inline-block ">
+                            <div
+                                class="Frame62 w-[154px] h-[200px] p-5 bg-white rounded-[15px] border border-[#ebebeb] transition duration-300 ease-in-out hover:shadow-2xl hover:mt-[-40px] justify-center items-center gap-2.5 flex">
+                                <div
+                                    class="Frame57 w-[117px] self-stretch flex-col justify-center items-center gap-[19px] inline-flex">
+                                    <div class="">
+                                        <img src="./assets/img/homeimages/teeth7.png" alt="">
+                                    </div>
+                                    <div
+                                        class="Frame56 self-stretch h-[51px] flex-col justify-start items-center gap-3 flex">
+                                        <div
+                                            class=" self-stretch text-center text-[#292929] text-[15px] font-bold font-['Segoe UI'] leading-tight">
+                                            العلاج التجميلي</div>
+                                        <div class="Frame55 self-stretch justify-between items-center inline-flex">
+                                            <div class="Frame w-5 h-5 py-[5px] justify-center items-center flex"></div>
+                                            <a href=""
+                                                class="text-[#3d3d3d] text-[13px] font-['Segoe UI'] leading-[16.90px] flex gap-2">
+                                                <span> التعرف على المزيد</span>
+                                                <svg class="h-4 w-4 text-gray-500" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <polyline points="15 6 9 12 15 18" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide inline-block ">
+                            <div
+                                class="Frame62 w-[154px] h-[200px] p-5 bg-white rounded-[15px] border border-[#ebebeb] transition duration-300 ease-in-out hover:shadow-2xl hover:mt-[-40px] justify-center items-center gap-2.5 flex">
+                                <div
+                                    class="Frame57 w-[117px] self-stretch flex-col justify-center items-center gap-[19px] inline-flex">
+                                    <div class="">
+                                        <img src="./assets/img/homeimages/teeth8.png" alt="">
+                                    </div>
+                                    <div
+                                        class="Frame56 self-stretch h-[51px] flex-col justify-start items-center gap-3 flex">
+                                        <div
+                                            class=" self-stretch text-center text-[#292929] text-[15px] font-bold font-['Segoe UI'] leading-tight">
+                                            طوارئ الأسنان</div>
+                                        <div class="Frame55 self-stretch justify-between items-center inline-flex">
+                                            <div class="Frame w-5 h-5 py-[5px] justify-center items-center flex"></div>
+                                            <a href=""
+                                                class="text-[#3d3d3d] text-[13px] font-['Segoe UI'] leading-[16.90px] flex gap-2">
+                                                <span> التعرف على المزيد</span>
+                                                <svg class="h-4 w-4 text-gray-500" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round">
+                                                    <polyline points="15 6 9 12 15 18" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section fiv -->
+    <section>
+        <div class="Frame79 w-full h-[697px] p-5 md:p-[50px] flex-col justify-start items-start gap-6 inline-flex">
+            <div class="Frame79 p-5 justify-center items-center gap-4 inline-flex">
+                <div class="Rectangle32 w-[43px] h-[43px] bg-[#ffbead] rounded-[50px]"></div>
+                <div class=" text-right mr-[-40px]"><span
+                        class="text-[#1e282e] text-2xl font-semibold font-['Segoe UI'] leading-[31.20px]">نتائج سوف
+                    </span><span
+                        class="text-[#eb6a48] text-2xl font-semibold font-['Segoe UI'] leading-[31.20px]">تبهرك</span><span
+                        class="text-[#1e282e] text-2xl font-semibold font-['Segoe UI'] leading-[31.20px]"> مع افضل
+                        الاطباء
+                        لدينا</span>
+                </div>
+            </div>
+            <div
+                class="Frame78 self-stretch justify-between items-center inline-flex rounded-[20px] flex md:flex-row gap-5">
+                <div
+                    class="Frame75 w-full h-[502px] relative rounded-[20px] basis-4/4 md:basis-3/4 bg-[url('./assets/img/homeimages/soady.png')] bg-cover bg-center bg-no-repeat">
+                    <div class="MaskGroup w-full h-[502px] left-0 top-0 absolute rounded-[20px] opacity-50">
+                        <div
+                            class="Image16 w-full h-[502px] left-0 top-0 absolute bg-gradient-to-b from-white to-[#eb6a48] rounded-[20px]">
+                        </div>
+                    </div>
+                    <div
+                        class="Frame75 w-[160px] h-16 p-2.5 left-[-10px] bottom-[-10px] absolute rounded-xl bg-[#fef4f2]">
+                        <div class="w-full flex items-center justify-between bg-[#FDE8E3] rounded-2xl p-3">
+                            <button class="bg-red-500 p-3 rounded-2xl text-white">
+                                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="9 6 15 12 9 18" />
+                                </svg>
+                            </button>
+                            <button class="bg-red-500 p-3 rounded-2xl text-white">
+                                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="15 6 9 12 15 18" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="left-[425px] top-[438px] absolute text-right text-white text-[0px] md:text-[34px] font-semibold font-['Segoe UI'] leading-[44.20px]">
+                        ابتسامة الثقة والتميز تبدأ من هنا
+                    </div>
+                </div>
+
+                <div
+                    class="Swipper w-full h-[501px] relative rounded-[20px] overflow-hidden bg-[url('./assets/img/homeimages/woman.png')] basis-1/4 hidden md:flex">
+                    <div
+                        class="Image16 w-full h-[501px] left-0 top-[0px] absolute bg-gradient-to-b from-white to-[#507a8a] opacity-80">
+                    </div>
+                    <div
+                        class="Frame88 p-[8.36px] left-[63px] top-[394px] absolute bg-white/20 rounded-[233.95px] backdrop-blur-[11.70px] flex-col justify-center items-center gap-[8.36px] inline-flex">
+                        <div class="Frame85 w-[200.29px] justify-between items-center inline-flex">
+                            <div class="Frame84 justify-start items-center flex">
+                                <div
+                                    class="Frame83 w-[34.26px] h-[34.26px] px-[6.68px] py-[5.01px] bg-[#efefef] rounded-[17.13px] border border-white justify-center items-center gap-[8.36px] flex">
+                                    <div class="Frame w-[16.71px] h-[16.71px] relative"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="Frame87 p-[9.05px] left-[50px] top-[402px] absolute bg-white/20 rounded-[253.26px] backdrop-blur-[12.66px] flex-col justify-center items-center gap-[9.05px] inline-flex">
+                        <div class="Frame85 w-[220px] justify-between items-center inline-flex">
+
+                            <div class="Frame84 justify-start items-center flex">
+                                <div
+                                    class="Frame83 w-[37.08px] h-[37.08px] px-[7.24px] py-[5.43px] bg-[#efefef] rounded-[18.54px] border border-white justify-center items-center gap-[9.05px] flex">
+                                    <div class="Frame w-[18.09px] h-[18.09px] relative"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="Frame86 p-2.5 left-[32px] top-[411px] absolute bg-white/20 rounded-[280px] backdrop-blur-[14px] flex-col justify-center items-center gap-2.5 inline-flex">
+                        <div class="Frame85 w-[250px] justify-between items-center inline-flex">
+                            <div class="Frame84 justify-start items-center flex gap-3">
+                                <div
+                                    class="Frame83 w-[41px] h-[41px] px-2 py-1.5 z-10 bg-[#efefef] rounded-[20.50px] border border-white justify-center items-center gap-2.5 flex">
+                                    <div class="Frame w-5 h-5 relative">99</div>
+                                </div>
+                                <div
+                                    class="Frame83 w-[41px] h-[41px] z-0 bg-[#efefef] rounded-[20.50px] mr-[-20px] border border-white justify-center items-center gap-2.5 flex">
+                                    <div class="Frame relative">
+                                        <img class="w-full" src="./assets/img/homeimages/woman-circle.png" alt="">
+                                    </div>
+                                </div>
+                                <div
+                                    class="text-wrap w-[272px] text-right text-white text-xs font-normal font-['Segoe UI'] leading-none">
+                                    العربى العربى العربى العربى
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section six -->
+    <section>
+        <div class="w-full flex flex-col items-center justify-center">
+            <div class="h-[71px] p-5 justify-center items-center gap-4 inline-flex">
+                <div class="h-[71px] px-5 flex justify-center items-center gap-4 text-center">
+                    <!-- Left Decoration -->
+                    <div class="flex justify-end items-center gap-1">
+                        <div class="w-3 h-1.5 bg-[#eb6a48] rounded-full"></div>
+                        <div class="w-8 h-1.5 bg-[#eb6a48] rounded-full"></div>
+                    </div>
+
+                    <!-- Text -->
+                    <div class="text-[#292929] text-2xl font-semibold leading-[31.2px] font-['Segoe UI']">
+                        نتائج قبل و بعد
+                    </div>
+
+                    <!-- Right Decoration -->
+                    <div class="flex justify-end items-center gap-1">
+                        <div class="w-3 h-1.5 bg-[#eb6a48] rounded-full"></div>
+                        <div class="w-8 h-1.5 bg-[#eb6a48] rounded-full"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full flex flex-row gap-5">
+                <div class="basis-1/5 bg-blue-500 rounded-l-2xl overflow-hidden my-5">
+                    <img class="w-full h-full object-cover" src="./assets/img/homeimages/mask.png" alt="">
+                </div>
+                <div class="basis-3/5 h-[400px] relative rounded-[20px] overflow-hidden">
+                    <div
+                        class="h-full flex items-center justify-end bg-[url('./assets/img/homeimages/fillter.png')] bg-cover">
+                        <div class="h-full  flex items-center justify-center">
+                            <label for="resizableImage" class="cursor-grabbing w-5 h-5 rounded-full bg-red-500/50 p-5 relative ml-[-20px]"></label>
+                            <img draggable="false" id="resizableImage" class="cursor-grabbing w-[450px] h-full object-cover border-white border-r-2"
+                                src="./assets/img/homeimages/mask.png" alt="Mask Image" />
+                        </div>
+                    </div>
+    
+                    <div
+                        class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-4 flex items-center gap-2">
+                        <div class="flex items-center gap-2">
+                            <div
+                                class="w-[41px] h-[41px] z-0 px-2 py-1.5 bg-[#efefef] rounded-full border border-white flex justify-center items-center">
+                                <div class="w-5 h-5">99</div>
+                            </div>
+                            <img class="w-[41px] h-[41px] z-30 rounded-full mr-[-20px]"
+                                src="./assets/img/homeimages/doctor1.png" />
+                        </div>
+                        <div class="w-[272px] text-right text-[#3d3d3d] text-xs font-normal font-['Segoe UI'] leading-none">
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى
+                        </div>
+                    </div>
+                </div>
+                <div class="basis-1/5 bg-blue-500 rounded-r-2xl overflow-hidden my-5">
+                    <img class="w-full h-full object-cover" src="./assets/img/homeimages/after.png" alt="">
+                </div>
+            </div>
+
+            <div class="h-[7.50px] justify-start items-center gap-1.5 inline-flex mt-5">
+                <div class="w-[22.50px] h-[7.50px] bg-[#e8e8e8] rounded-[37.50px]"></div>
+                <div class="w-[45px] h-[7.50px] bg-[#eb6a48] rounded-[37.50px]"></div>
+                <div class="w-[22.50px] h-[7.50px] bg-[#e8e8e8] rounded-[37.50px]"></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- section seven -->
+    <section>
+        <div class="w-full h-[697px] p-5 md:p-[50px] flex-col justify-center items-center gap-24 inline-flex">
+            <div class=" w-full max-w-4xl mx-auto p-4 flex flex-wrap items-center justify-between">
+                <!-- Left Rotated Box -->
+                <div
+                    class="w-[76px] h-[76px] p-[15px] transform rotate-[155deg] bg-white mt-[-100px] rounded-xl border-2 border-[#eb6a48] flex justify-center items-center">
+                    <div class="w-[45px] h-[45px]">
+                        <img src="./assets/img/homeimages/Frame51.png" alt="">
+                    </div>
+                </div>
+
+                <!-- Center Content -->
+                <div class="h-[71px] px-5 flex justify-center items-center gap-4 text-center">
+                    <!-- Left Decoration -->
+                    <div class="flex justify-end items-center gap-1">
+                        <div class="w-3 h-1.5 bg-[#eb6a48] rounded-full"></div>
+                        <div class="w-8 h-1.5 bg-[#eb6a48] rounded-full"></div>
+                    </div>
+
+                    <!-- Text -->
+                    <div class="text-[#292929] text-2xl font-semibold leading-[31.2px] font-['Segoe UI']">
+                        آراء العملاء عنا
+                    </div>
+
+                    <!-- Right Decoration -->
+                    <div class="flex justify-end items-center gap-1">
+                        <div class="w-3 h-1.5 bg-[#eb6a48] rounded-full"></div>
+                        <div class="w-8 h-1.5 bg-[#eb6a48] rounded-full"></div>
+                    </div>
+                </div>
+
+                <!-- Right Rotated Box -->
+                <div
+                    class="w-[78px] h-[78px] p-[15px] transform rotate-[25deg] bg-white rounded-xl border-2 border-[#eb6a48] flex justify-center items-center">
+                    <div class="w-[47px] h-[47px]">
+                        <img src="./assets/img/homeimages/Frame52.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="w-full max-w-6xl mx-auto h-[201px] relative">
+                <div
+                    class="h-[181px] px-[13px] py-5 left-[20px] top-0 absolute bg-white rounded-[20px] border border-[#eeeeee] justify-end items-start gap-2.5 inline-flex transition duration-300 ease-in-out hover:shadow-2xl hover:mt-[-40px]">
+                    <div class="self-stretch flex-col justify-between items-start inline-flex">
+                        <div class="flex-col justify-start items-start gap-[30px] flex">
+                            <div class="flex-col justify-start items-start gap-[17px] flex">
+                                <div class="justify-end items-center gap-2 inline-flex">
+                                    <img class="w-[38px] h-[38px] rounded-full"
+                                        src="./assets/img/homeimages/fatma.png" />
+                                    <div
+                                        class="text-right text-[#212832] text-xl font-medium font-['Tajawal'] leading-normal">
+                                        فاطمة الزهراني</div>
+                                </div>
+                                <div
+                                    class="w-[335px] text-right text-[#3e5066] text-sm font-medium font-['Tajawal'] leading-tight">
+                                    كنت أعاني من مشاكل كبيرة في أسناني، لكن بعد العلاج هنا، أصبحت ابتسامتي أكثر جمالًا
+                                    وصحة. شكرًا للفريق الرائع</div>
+                            </div>
+                            <div class="justify-start items-center gap-1 inline-flex">
+                                <!-- icon svg star -->
+                                <svg class="h-6 w-6 text-yellow-500" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                                <svg class="h-6 w-6 text-yellow-500" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                                <svg class="h-6 w-6 text-yellow-500" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                                <svg class="h-6 w-6 text-yellow-500" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                                <svg class="h-6 w-6 text-gray-300" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="h-[180px] px-[13px] py-5 left-[391px] top-0 absolute bg-white rounded-[20px] shadow justify-end items-start gap-2.5 inline-flex transition duration-300 ease-in-out hover:shadow-2xl hover:mt-[-40px]">
+                    <div class="self-stretch justify-start items-start gap-[17px] flex">
+                        <div class="flex-col justify-start items-start gap-[30px] inline-flex">
+                            <div class="flex-col justify-start items-start gap-[17px] flex">
+                                <div class="justify-end items-center gap-2 inline-flex">
+                                    <img class="w-[38px] h-[38px] rounded-full"
+                                        src="./assets/img/homeimages/mohamed.png" />
+                                    <div
+                                        class="text-right text-[#212832] text-xl font-medium font-['Tajawal'] leading-normal">
+                                        محمد السعدي</div>
+                                </div>
+                                <div
+                                    class="w-[335px] text-right text-[#3e5066] text-sm font-medium font-['Tajawal'] leading-normal">
+                                    تجربتي في العيادة كانت مذهلة! الفريق الطبي محترف جدًا، وشعرت بالراحة منذ اللحظة
+                                    الأولى. الآن أبتسم بثقة أكبر.</div>
+                            </div>
+                            <div class="justify-start items-center gap-1 inline-flex">
+                                <svg class="h-6 w-6 text-yellow-500" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                                <svg class="h-6 w-6 text-yellow-500" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                                <svg class="h-6 w-6 text-yellow-500" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                                <svg class="h-6 w-6 text-yellow-500" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                                <svg class="h-6 w-6 text-gray-300" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="h-[181px] px-[13px] py-5 left-[762px] top-0 absolute bg-white rounded-[20px]  justify-end items-start gap-2.5 inline-flex transition duration-300 ease-in-out hover:shadow-2xl hover:mt-[-40px]">
+                    <div class="self-stretch flex-col justify-between items-start inline-flex">
+                        <div class="flex-col justify-start items-start gap-[30px] flex">
+                            <div class="flex-col justify-start items-start gap-[17px] flex">
+                                <div class="justify-end items-center gap-2 inline-flex">
+                                    <img class="w-[38px] h-[38px] rounded-full"
+                                        src="./assets/img/homeimages/sara.png" />
+                                    <div
+                                        class="text-right text-[#212832] text-xl font-medium font-['Tajawal'] leading-normal">
+                                        سارة العتيبي</div>
+                                </div>
+                                <div
+                                    class="w-[335px] text-right text-[#3e5066] text-sm font-medium font-['Tajawal'] leading-tight">
+                                    الرعاية والعناية التي تلقيتها كانت فوق توقعاتي. أشعر بالامتنان لاهتمامهم بالتفاصيل
+                                    الصغيرة وسهولة الإجراءات.</div>
+                            </div>
+                            <div class="justify-start items-center gap-1 inline-flex">
+                                <svg class="h-6 w-6 text-yellow-500" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                                <svg class="h-6 w-6 text-yellow-500" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                                <svg class="h-6 w-6 text-yellow-500" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                                <svg class="h-6 w-6 text-yellow-500" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                                <svg class="h-6 w-6 text-gray-300" width="24" height="24" viewBox="0 0 24 24"
+                                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 17.75l-6.172 3.245 1.179-6.873-4.993-4.867 6.9-1.002L12 2l3.086 6.253 6.9 1.002-4.993 4.867 1.179 6.873z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="w-[46.04px] h-[46.04px] p-[7.49px] left-[1147px] top-[113px] absolute origin-top-left rotate-180 bg-[#f58f74] rounded-[10px] justify-start items-center gap-[10.71px] inline-flex">
+                    <button
+                        class="text-white w-[29.98px] h-[29.98px] pt-[7.49px] pb-[7.50px] justify-center items-center flex">
+                        <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 6 9 12 15 18" />
+                        </svg>
+                    </button>
+                </div>
+                <div
+                    class="w-[46.04px] h-[46.04px] p-[7.49px] left-0 top-[67px] absolute bg-[#eb6a48] rounded-[10px] justify-start items-center gap-[10.71px] inline-flex">
+                    <button class="text-white w-[29.98px] h-[29.98px] py-[7.49px] justify-center items-center flex">
+                        <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 6 9 12 15 18" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section eaght -->
+    <section class="w-full p-5 md:p-10 flex flex-col items-center bg-white">
+        <div
+            class="relative w-full max-w-6xl h-[500px] md:h-[800px] bg-[#fdd5cb] p-5 rounded-lg flex flex-col items-center">
+            <div class="relative w-[60%] h-[800px] rounded-full border-0 md:border-2 border-dashed border-white">
+                <div class="absolute inset-0 flex flex-col items-center justify-top">
+                    <div class="w-[445px] h-auto text-center mt-[50px]">
+                        <div class="text-[#292929] text-2xl md:text-3xl font-bold font-['Segoe UI'] mb-3">
+                            نحن بالقرب منك!
+                        </div>
+                        <p
+                            class="w-[350px] mx-auto text-[#464646] text-sm md:text-base font-normal font-['Segoe UI'] leading-7 text-wrap">
+                            تجدنا بسهولة في موقع مركزي يسهل الوصول إليه. زرنا اليوم وابدأ رحلتك نحو ابتسامة أجمل. نحن
+                            هنا لخدمتك في أي وقت!
+                        </p>
+                    </div>
+                    <div class="flex gap-4 mt-4">
+                        <div
+                            class="h-9 px-5 py-2 bg-[#507a8a] rounded-full flex items-center justify-center text-white text-xs font-normal font-['Segoe UI']">
+                            الفرع الثاني
+                        </div>
+                        <div
+                            class="h-10 px-6 py-3 bg-[#eb6a48] rounded-full border border-white flex items-center justify-center text-white text-sm font-normal font-['Segoe UI']">
+                            الفرع الأول
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute bottom-0 w-full max-w-6xl mt-8 h-auto bg-[#e9e9e9] flex items-center justify-center">
+                <img class="w-full h-auto max-w-full object-cover" src="./assets/img/homeimages/map.png"
+                    alt="Placeholder Image" />
+            </div>
+        </div>
+    </section>
+    <!-- section nign -->
+    <section class="px-0 lg:px-3 lg:px-[200px] mt-10">
+        <div class="grid grid-cols-1 grid-rows-1 md:grid-cols-2 gap-5 p-3">
+            <div class=" block rounded-lg shadow-secondary-1 my-3">
+                <div class=" flex-col justify-start items-start gap-8 inline-flex">
+                    <div
+                        class="self-stretch text-right text-[#7c7c7c] text-[32px] font-semibold font-['Segoe UI'] leading-[51.20px]">
+                        معلومات الاتصال</div>
+                    <div class="self-stretch  flex-col justify-start items-start gap-8 flex">
+                        <div class="self-stretch justify-end items-start gap-3 inline-flex">
+                            <div
+                                class="w-[30px] h-[30px] p-2 bg-white rounded-[5px] justify-center items-center gap-2.5 flex">
+                                <div
+                                    class="w-[15px] h-[15px] pl-[1.88px] pr-[1.87px] pt-[1.88px] pb-[1.87px] justify-center items-center flex">
+                                    <svg class="h-8 w-8 text-red-500" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="w-[349px] flex-col justify-start items-start gap-6 inline-flex">
+                                <div
+                                    class="self-stretch text-right text-[#656565] text-base font-normal font-['Segoe UI'] leading-relaxed">
+                                    رقم الهاتف</div>
+                                <div
+                                    class="self-stretch text-right text-[#292929] text-xl font-semibold font-['Segoe UI'] leading-loose">
+                                    +966 50 857 7070</div>
+                            </div>
+                        </div>
+                        <div class="self-stretch justify-end items-start gap-3 inline-flex">
+                            <div
+                                class="w-[30px] h-[30px] p-2 bg-white rounded-[5px] justify-center items-center gap-2.5 flex">
+                                <svg class="h-8 w-8 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                    <polyline points="22,6 12,13 2,6" />
+                                </svg>
+                            </div>
+                            <div class="w-[349px] flex-col justify-start items-start gap-6 inline-flex">
+                                <div
+                                    class="self-stretch text-right text-[#656565] text-base font-normal font-['Segoe UI'] leading-relaxed">
+                                    البريد الإلكتروني:</div>
+                                <div
+                                    class="text-right text-[#292929] text-xl font-semibold font-['Segoe UI'] leading-loose">
+                                    info@yourclinic.com</div>
+                            </div>
+                        </div>
+                        <div class="self-stretch justify-end items-start gap-3 inline-flex">
+                            <div
+                                class="w-[30px] h-[30px] p-2 bg-white rounded-[5px] justify-center items-center gap-2.5 flex">
+                                <svg class="h-8 w-8 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+
+                            </div>
+                            <div class="w-[349px] flex-col justify-start items-start gap-6 inline-flex">
+                                <div
+                                    class="self-stretch text-right text-[#656565] text-base font-normal font-['Segoe UI'] leading-relaxed">
+                                    العنوان:</div>
+                                <div
+                                    class="text-right text-[#292929] text-xl font-semibold font-['Segoe UI'] leading-loose">
+                                    شارع
+                                    الملك فيصل، الرياض، المملكة العربية السعودية</div>
+                            </div>
+                        </div>
+                        <div class="self-stretch justify-end items-start gap-3 inline-flex">
+                            <div
+                                class="w-[30px] h-[30px] p-2 bg-white rounded-[5px] justify-center items-center gap-2.5 flex">
+                                <svg class="h-8 w-8 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+
+                            </div>
+                            <div class="w-[349px] flex-col justify-start items-start gap-6 inline-flex">
+                                <div
+                                    class="self-stretch text-right text-[#656565] text-base font-normal font-['Segoe UI'] leading-relaxed">
+                                    ساعات العمل:</div>
+                                <div
+                                    class="text-right text-[#292929] text-xl font-semibold font-['Segoe UI'] leading-loose">
+                                    الأحد -
+                                    الخميس: 9:00 صباحًا - 9:00 مساءً</div>
+                                <div
+                                    class="text-right text-[#292929] text-xl font-semibold font-['Segoe UI'] leading-loose">
+                                    الجمعة:
+                                    مغلق</div>
+                                <div
+                                    class="text-right text-[#292929] text-xl font-semibold font-['Segoe UI'] leading-loose">
+                                    السبت:
+                                    10:00 صباحًا - 6:00 مساءً</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-xl mx-auto overflow-hidden p-5 w-full">
+                <div
+                    class="w-[90%] rounded-2xl h-[400px] mb-[-390px] rotate-[5.36deg] bg-white p-5 rounded-[20px]  z-10">
+                </div>
+                <div class="rounded-2xl bg-white p-5 rotate-[0deg] rounded-[20px] shadow z-0 ">
+                    <form class="flex-col justify-start items-center gap-[47px] inline-flex">
+                        <div class="h-[92px] flex-col justify-start items-center gap-8 flex">
+                            <div
+                                class="self-stretch text-center text-[#292929] text-[40px] font-bold font-['Segoe UI'] leading-[48px]">
+                                ابقَ على اتصال معن</div>
+                            <div
+                                class="self-stretch text-center text-[#656565] text-sm font-semibold font-['Segoe UI'] leading-snug">
+                                نحن هنا للإجابة على جميع استفساراتك ومساعدتك في حجز موعدك القادم. لا تتردد في
+                                التواصل معنا!
+                            </div>
+                        </div>
+                        <div class="self-stretch h-[546px] flex-col justify-start items-center gap-4 flex">
+                            <div class="self-stretch h-[486px] flex-col justify-start items-start gap-6 flex">
+                                <div class="self-stretch h-[84px] flex-col justify-start items-start gap-3.5 flex">
+                                    <label
+                                        class="grow shrink basis-0 text-right text-[#3d3d3d] text-sm font-bold font-['Segoe UI'] leading-snug">
+                                        الاسم كامل</label>
+                                    <input type="text"
+                                        class="self-stretch h-[60px] bg-[#f9f9f9] rounded-[10px] border border-[#e0917c] p-2"
+                                        placeholder="الاسم كامل">
+        
+                                </div>
+                                <div class="self-stretch h-[84px] flex-col justify-start items-start gap-3.5 flex">
+                                    <label
+                                        class="grow shrink basis-0 text-right text-[#3d3d3d] text-sm font-bold font-['Segoe UI'] leading-snug">
+                                        رقم الهاتف</label>
+                                    <input type="tel"
+                                        class="self-stretch h-[60px] bg-[#f9f9f9] rounded-[10px] border border-[#e0917c] p-2"
+                                        placeholder="رقم الهاتف">
+        
+                                </div>
+                                <div class="self-stretch h-[84px] flex-col justify-start items-start gap-3.5 flex">
+                                    <label
+                                        class="grow shrink basis-0 text-right text-[#3d3d3d] text-sm font-bold font-['Segoe UI'] leading-snug">
+                                        البريد الإلكتروني</label>
+                                    <input type="email"
+                                        class="self-stretch h-[60px] bg-[#f9f9f9] rounded-[10px] border border-[#e0917c] p-2"
+                                        placeholder="البريد الإلكتروني">
+                                </div>
+                                <div class="self-stretch h-[162px] flex-col justify-start items-start gap-3.5 flex">
+                                    <label
+                                        class="grow shrink basis-0 text-right text-[#3d3d3d] text-sm font-bold font-['Segoe UI'] leading-snug">
+                                        الرسالة</label>
+                                    <textarea
+                                        class="h-full self-stretch h-auto bg-[#f9f9f9] rounded-[10px] border border-[#e0917c] p-2"> </textarea>
+        
+                                </div>
+                            </div>
+                            <div
+                                class="self-stretch h-11 p-2.5 bg-[#eb6a48] rounded-[50px] justify-center items-center gap-2.5 inline-flex">
+                                <button class="text-right text-white text-sm font-semibold font-['Segoe UI'] leading-snug">
+                                    إرسال
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="Footer w-full h-auto relative bg-[#fef4f2] p-3 border-t-2 border-white overflow-hidden">
+        <div class="Group122 w-[330.01px] h-auto hidden md:flex right-[-200px] top-0 absolute">
+            <div class="Ellipse4 w-[330.01px] h-[330.01px] left-0 top-0 absolute rounded-full border border-[#fab5a3]">
+            </div>
+            <div
+                class="Ellipse9 w-[291.41px] h-[291.41px] left-[28.02px] top-[208.59px] absolute rounded-full border-dashed border-2 border-[#fab5a3]">
+            </div>
+            <div
+                class="Ellipse7 w-[12.45px] h-[12.45px] left-[42.34px] top-[275.84px] absolute bg-[#eb6a48] rounded-full">
+            </div>
+        </div>
+        <nav
+            class="LinksNav w-full left-0 top-0 absolute border-b border-[#ebebeb] justify-center items-center gap-2.5 flex-wrap inline-flex">
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./index.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">الرئيسية</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./whySegam.html" class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">ليش
+                    سجام</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./services.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">الخدمات</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./doctors.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">أطباونا</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./old.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">تجاربكم</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./kids.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">Kids</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./withsegam.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">رحلتك مع سجام</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./blog.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">المدونة</a>
+            </div>
+        </nav>
+        <div
+            class="Frame1000004149 w-full max-w-[1095px] mx-auto mt-[179px] flex flex-col md:flex-row justify-between items-start">
+            <div class="Frame1000004148 w-full md:w-[325px] flex-col justify-start items-start gap-9 inline-flex">
+                <div class="Frame1000004141 w-full flex-col justify-start items-start gap-3 flex">
+                    <img class="Image23 w-[241px] h-[89px]" src="./assets/img/homeimages/logo_dark.png" />
+                    <div class="text-justify text-[#7c7c7c] text-[15px] font-normal font-['Segoe UI'] leading-normal">
+                        نقدم أعلى مستويات الجودة والإحترافية في طب الأسنان لجميع مرضانا دون استثناء، بجانب خدمتهم بطريقة
+                        استثنائية غير مسبوقة من بداية تواصلهم لوصولهم وحتى بعد إنتهاء جلستهم
+                    </div>
+                </div>
+            </div>
+            <div class="Frame1000004147 flex flex-col md:flex-row justify-start items-start gap-[70px]">
+                <div class="Frame1000004145 w-full md:w-[330px] flex-col justify-start items-start gap-3 inline-flex">
+                    <div class="text-right text-black text-2xl font-semibold font-['Segoe UI']">موقعنا</div>
+                    <div class="Frame1000004151 flex-col justify-start items-start gap-8 flex">
+                        <div class="Frame1000004144 w-full flex-col justify-start items-start gap-[18px] flex">
+                            <div class="Frame1000004146 flex justify-end items-center gap-2 inline-flex">
+                                <div
+                                    class="text-right text-[#3d3d3d] text-base font-semibold font-['Segoe UI'] inline-flex gap-2">
+                                    <img src="./assets/img/homeimages/posation.svg" alt="">
+                                    <span>الرياض</span>
+                                    - الطريق الدائري الشمالي الفرعي
+                                </div>
+                            </div>
+                            <div class="247 text-right text-[#3d3d3d] text-base font-semibold font-['Segoe UI']">
+                                نخدمكم على مدار الساعة 24/7
+                            </div>
+                        </div>
+                        <div
+                            class="Frame1000004145 self-stretch h-[38px] flex-col justify-start items-start gap-[18px] flex">
+                            <div class="4001100 text-right"><span
+                                    class="text-[#3d3d3d] text-base font-semibold font-['Segoe UI'] leading-[27px]">ويوم
+                                    الجمعة<br />من الساعة </span><span
+                                    class="text-[#e8604b] text-base font-semibold font-['Segoe UI'] leading-[27px]">4:00
+                                    عصرًا</span><span
+                                    class="text-[#3d3d3d] text-base font-semibold font-['Segoe UI'] leading-[27px]">
+                                    وحتى الساعة </span><span
+                                    class="text-[#e8604b] text-base font-semibold font-['Segoe UI'] leading-[27px]">11:00
+                                    مساءً</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Frame1000004146 w-full md:w-[270px] flex-col justify-start items-start gap-3 inline-flex">
+                    <div class="text-right text-black text-2xl font-semibold font-['Segoe UI']">تابعنا من هنا</div>
+                    <div class="Frame1000003193 flex justify-end items-center gap-3.5">
+                        <div
+                            class="Frame2089 w-[38px] h-[38px] p-2.5 bg-[#eb6a48] rounded-[7px] border border-white/25 backdrop-blur-[14px] justify-center items-center gap-2.5 flex">
+                            <a href="" class=" w-4 h-4">
+                                <svg class="text-white" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div
+                            class="Frame2089 w-[38px] h-[38px] p-2.5 bg-[#eb6a48] rounded-[7px] border border-white/25 backdrop-blur-[14px] justify-center items-center gap-2.5 flex">
+                            <div class="Frame p-0.5 justify-end items-center gap-2.5 flex">
+                                <a href="" class=" w-5 h-5">
+                                    <span class="[&>svg]:h-5 [&>svg]:w-5">
+                                        <svg class="text-white" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 448 512">
+                                            <path
+                                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="Frame2089 w-[38px] h-[38px] p-2.5 bg-[#eb6a48] rounded-[7px] border border-white/25 backdrop-blur-[14px] justify-center items-center gap-2.5 flex">
+                            <div class="Frame2089 justify-end items-center gap-2.5 flex">
+                                <a href="" class=" w-5 h-5">
+                                    <span class="[&>svg]:h-5 [&>svg]:w-5 text-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 448 512">
+                                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                            <path
+                                                d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="Frame p-2.5 bg-[#eb6a48] rounded-[7px] border border-white/25 backdrop-blur-[14px] justify-center items-center gap-2.5 flex">
+                            <div class="Frame2089 justify-end items-center gap-2.5 flex">
+                                <a href="" class=" w-4 h-4">
+                                    <svg class="text-white" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                        viewBox="0 0 448 512">
+                                        <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                        <path
+                                            d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="Frame1000004150 w-auto h-16 p-2.5 mt-[30px] border-t border-white justify-center items-center gap-2.5">
+            <div class="2024 text-center text-black text-sm font-semibold font-['Segoe UI'] mt-3">جميع الحقوق محفوظة
+                لعيادة
+                سجام © 2024</div>
+        </div>
+
+        <div class="Group122 w-[330.01px] h-[500px] hidden md:flex left-[-250px] top-0 absolute">
+            <div class="Ellipse4 w-[330.01px] h-[330.01px] left-0 top-0 absolute rounded-full border border-[#fab5a3]">
+            </div>
+            <div
+                class="Ellipse9 w-[291.41px] h-[291.41px] left-[28.02px] top-[208.59px] absolute rounded-full border-dashed border-2 border-[#fab5a3]">
+            </div>
+            <div
+                class="Ellipse7 w-[12.45px] h-[12.45px] right-[32px] top-[260.84px] absolute bg-[#eb6a48] rounded-full">
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    const slider = document.getElementById('slider');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    let currentOffset = 0;
+
+    prevBtn.addEventListener('click', () => {
+        currentOffset += 200; // move left by 200px
+        slider.style.transform = `translateX(${currentOffset}px)`;
+    });
+
+    nextBtn.addEventListener('click', () => {
+        currentOffset -= 200; // move right by 200px
+        slider.style.transform = `translateX(${currentOffset}px)`;
+    });
+</script>
+
+<script>
+    const img = document.getElementById("resizableImage");
+    let isDragging = false;
+    let startX = 0;
+    let initialWidth = img.offsetWidth;
+    
+    img.addEventListener("mousedown", (e) => {
+        isDragging = true;
+        startX = e.clientX;
+        initialWidth = img.offsetWidth;
+        document.body.style.cursor = "ew-resize"; // Change the cursor to indicate resizing
+    });
+
+    document.addEventListener("mousemove", (e) => {
+        if (isDragging) {
+            let newWidth = initialWidth + (e.clientX - startX);
+            if (newWidth > 500) newWidth = 500; // Max width of 500px
+            if (newWidth > 50) { // Minimum width to avoid disappearing
+                img.style.width = newWidth + "px";
+            }
+        }
+    });
+
+    document.addEventListener("mouseup", () => {
+        isDragging = false;
+        document.body.style.cursor = "default"; // Reset the cursor
+    });
+</script>
+
+
+</html>

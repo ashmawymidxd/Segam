@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Find expert teeth doctors for all dental services, including teeth cleaning, fillings, root canals, and more. Book your appointment today for a healthy smile.">
+    <meta name="keywords"
+        content="teeth doctors, dentists, dental services, teeth cleaning, fillings, root canal, dental appointments, dental care">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags (for Social Media Sharing) -->
+    <meta property="og:title" content="Expert Teeth Doctors | Book Your Appointment Now">
+    <meta property="og:description"
+        content="Connect with professional dentists offering a wide range of dental services. Get expert care for your teeth today.">
+    <meta property="og:image" content="https://yourwebsite.com/images/og-image.jpg">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Expert Teeth Doctors | Book Your Appointment Now">
+    <meta name="twitter:description"
+        content="Find expert teeth doctors and book your dental care appointment with ease.">
+    <meta name="twitter:image" content="https://yourwebsite.com/images/twitter-card.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/img/homeimages/logo_dark.png" type="image/x-icon">
+
+    <!-- Title -->
+    <title>Segam - Expert Dental Care and Services</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- class css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Schema.org Structured Data (JSON-LD for Local Business) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "Teeth Doctors Clinic",
+      "image": "https://yourwebsite.com/images/clinic.jpg",
+      "@id": "https://yourwebsite.com",
+      "url": "https://yourwebsite.com",
+      "telephone": "+1-800-555-1234",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Dental St",
+        "addressLocality": "Toothville",
+        "addressRegion": "CA",
+        "postalCode": "90001",
+        "addressCountry": "US"
+      },
+      "priceRange": "$$",
+      "description": "Expert dental care from professional teeth doctors offering services like teeth cleaning, root canals, and more.",
+      "openingHours": "Mo-Fr 09:00-17:00",
+      "sameAs": [
+        "https://www.facebook.com/teethdoctors",
+        "https://www.instagram.com/teethdoctors"
+      ]
+    }
+    </script>
+
+    <!-- Custom Script for Menu -->
+    <script>
+        function toggleMenu() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- header -->
+    <div class="Hero w-full h-[50vh]  bg-[url('./assets/img/services/hero.png')] bg-cover bg-center">
+        <div class="absolute inset-0 h-[50vh] bg-gradient-to-b from-white/0 to-white/100"></div>
+        <!-- Header -->
+        <header
+            class="Header w-full px-4 py-3 md:py-0 md:px-[50px] top-0 absolute bg-black/30 backdrop-blur-[20px] flex justify-between items-center  z-40">
+            <div class="flex items-center">
+                <img class="w-[120px] md:w-[187px] h-auto" src="./assets/img/homeimages/logo.png" alt="Logo">
+            </div>
+            <!-- Hamburger Icon (visible on smaller screens) -->
+            <div class="md:hidden flex items-center">
+                <button class="text-white" onclick="toggleMenu()">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex space-x-4">
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./index.html" class="text-white text-base">الرئيسية</a>
+                </div>
+
+
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./whySegam.html" class="text-white text-base">ليش سجام</a>
+
+                </div>
+
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./services.html" class="text-white text-base">الخدمات</a>
+
+                </div>
+
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./doctors.html" class="text-white text-base">أطباونا</a>
+                </div>
+
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./old.html" class="text-white text-base">تجاربكم</a>
+                </div>
+
+
+
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./kids.html" class="text-white text-base">Kids</a>
+                </div>
+                <div class="LinkHeader px-2.5 py-6 border-b-2 border-[#eb6a48] flex items-center gap-2.5">
+                    <div class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full"></div>
+                    <a href="./garnyWithSegam.html" class="text-white text-base">رحلتك مع سجام</a>
+
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-6 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./blog.html" class="text-white text-base">المدونة</a>
+                </div>
+
+            </nav>
+            <!-- Mobile Navigation Links (hidden by default) -->
+            <nav id="mobile-menu"
+                class="hidden flex-col space-y-2 md:hidden absolute top-full right-0 bg-black/95 backdrop-blur-[10px] w-full px-6 py-4">
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./index.html" class="text-white text-base">الرئيسية</a>
+                </div>
+
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./whySegam.html" class="text-white text-base">ليش سجام</a>
+                </div>
+
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./services.html" class="text-white text-base">الخدمات</a>
+                </div>
+
+
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./doctors.html" class="text-white text-base">أطباونا</a>
+                </div>
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./old.html" class="text-white text-base">تجاربكم</a>
+                </div>
+
+
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./kids.html" class="text-white text-base">Kids</a>
+                </div>
+
+                <div class="LinkHeader px-2.5 py-2 border-b-2 border-[#eb6a48] flex items-center gap-2.5">
+                    <div class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full"></div>
+                    <a href="./garnyWithSegam.html" class="text-white text-base">رحلتك مع سجام</a>
+                </div>
+
+                <div
+                    class="LinkHeader px-2.5 py-2 flex items-center gap-2.5 opacity-60 transition duration-400 ease-in-out hover:opacity-100 hover:border-b-2 hover:border-[#eb6a48] group">
+                    <div
+                        class="w-[7px] h-[7px] bg-[#eb6a48] rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    </div>
+                    <a href="./blog.html" class="text-white text-base">المدونة</a>
+                </div>
+            </nav>
+            <div
+                class="w-[180px] h-[55px] px-6 bg-[#507a8a] rounded-full border border-white flex justify-center items-center relative">
+                <!-- Star Images -->
+                <img class="absolute left-[0px] top-[10px]" src="./assets/img/homeimages/Star1.png" alt="Star">
+                <img class="absolute right-[-10px] top-[15px]" width="25" src="./assets/img/homeimages/Star1.png"
+                    alt="Star">
+                <img class="absolute right-[60px] top-[5px]" src="./assets/img/homeimages/Star1.png" alt="Star">
+
+                <!-- Whatsapp -->
+                <span class="[&>svg]:h-5 [&>svg]:w-5 text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                        <path
+                            d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                    </svg>
+                </span>
+                <!-- Text -->
+                <a href="" class="text-white text-sm md:text-[15px] mx-3">تواصل معنا </a>
+            </div>
+
+        </header>
+        <!-- Hero Section -->
+        <div class="text-center h-full flex items-center justify-center">
+            <img class="" src="./assets/img/homeimages/logo_dark.png" alt="Logo">
+        </div>
+    </div>
+
+    <!-- row one -->
+    <section>
+        <div class="max-w-6xl mx-auto px-5 md:px-10 my-[100px] flex flex-col items-center justify-center">
+            <div class="flex flex-col justify-start items-center gap-8 inline-flex">
+                <div class="hidden md:flex w-[50%] h-[70px] bg-[#e0eaed] rounded-full">
+
+                </div>
+                <div class="relative mt-[-100px]">
+                    <h1 class="text-[#1e282e] text-5xl font-bold font-['Segoe UI']">
+                        العناية الشاملة بحشوة الأسنان</h1>
+                </div>
+                <p class="text-center text-[#456675] text-xl font-bold font-['Segoe UI'] leading-loose">في
+                    عيادة سِجَام، نقدم لك أحدث التقنيات في علاج تسوس الأسنان وترميمها باستخدام حشوات الأسنان عالية
+                    الجودة. نضمن لك الحصول على ابتسامة صحية وطبيعية، مع العناية الفائقة بكل تفصيل.</p>
+            </div>
+        </div>
+    </section>
+    <!-- row -->
+    <section>
+        <!-- row one -->
+        <div class="max-w-6xl mx-auto px-5 md:px-10 my-10">
+            <div class="flex flex-row md:flex-row flex-col gap-3">
+                <div class="basis-1/2 flex items-start justify-start">
+                    <div
+                        class="origin-top-left rotate-[-4.34deg] text-right text-[#eb6a48] text-[81.27px] font-normal font-['Sniglet']">
+                        1
+                    </div>
+                    <img class="rounded-full" src="./assets/img/gurnyDetails/img1.png" alt="">
+                </div>
+                <div class="basis-1/2 flex items-center justify-center">
+                    <div class="">
+                        <div class="flex-col justify-start gap-2 flex">
+                            <div class="text-right text-[#292929] text-5xl font-semibold font-['Segoe UI']">التشخيص
+                                الدقيق</div>
+                        </div>
+                        <div
+                            class="mt-5 self-stretch text-right text-[#3d3d3d] text-base font-semibold font-['Segoe UI'] leading-7">
+                            يتم فحص الأسنان بدقة باستخدام أحدث التقنيات لتحديد مدى التسوس أو الضرر.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- row one -->
+        <div class="max-w-6xl mx-auto px-5 md:px-10 my-10">
+            <div class="flex flex-row md:flex-row flex-col gap-3">
+                <div class="basis-1/2 flex items-start justify-start">
+                    <p
+                        class="origin-top-left rotate-[-4.34deg] text-right text-[#eb6a48] text-[81.27px] font-normal font-['Sniglet']">
+                        2
+                    </p>
+                    <img class="rounded-full" src="./assets/img/gurnyDetails/img2.png" alt="">
+                </div>
+                <div class="basis-1/2 flex items-center justify-center">
+                    <div class="">
+                        <div class="flex-col justify-start gap-2 flex">
+                            <h2 class="text-right text-[#292929] text-5xl font-semibold font-['Segoe UI']">
+
+                                إزالة التسوس
+
+                            </h2>
+                        </div>
+                        <p
+                            class="mt-5 self-stretch text-right text-[#3d3d3d] text-base font-semibold font-['Segoe UI'] leading-7">
+                            نقوم بإزالة الأجزاء المتضررة من الأسنان لضمان خلوها تمامًا من التسوس.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- row one -->
+        <div class="max-w-6xl mx-auto px-5 md:px-10 my-10">
+            <div class="flex flex-row md:flex-row flex-col gap-3">
+                <div class="basis-1/2 flex items-start justify-start">
+                    <div
+                        class="origin-top-left rotate-[-4.34deg] text-right text-[#eb6a48] text-[81.27px] font-normal font-['Sniglet']">
+                        3
+                    </div>
+                    <img class="rounded-full" src="./assets/img/gurnyDetails/img3.png" alt="">
+                </div>
+                <div class="basis-1/2 flex items-center justify-center">
+                    <div class="">
+                        <div class="flex-col justify-start gap-2 flex">
+                            <h2 class="text-right text-[#292929] text-5xl font-semibold font-['Segoe UI']">
+                                تحضير السن
+                            </h2>
+                        </div>
+                        <p
+                            class="mt-5 self-stretch text-right text-[#3d3d3d] text-base font-semibold font-['Segoe UI'] leading-7">
+                            يتم فحص الأسنان بدقة باستخدام أحدث التقنيات لتحديد مدى التسوس أو الضرر.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- row one -->
+        <div class="max-w-6xl mx-auto px-5 md:px-10 my-10">
+            <div class="flex flex-row md:flex-row flex-col gap-3">
+                <div class="basis-1/2 flex items-start justify-start">
+                    <div
+                        class="origin-top-left rotate-[-4.34deg] text-right text-[#eb6a48] text-[81.27px] font-normal font-['Sniglet']">
+                        4
+                    </div>
+                    <img class="rounded-full" src="./assets/img/gurnyDetails/img4.png " alt="">
+                </div>
+                <div class="basis-1/2 flex items-center justify-center">
+                    <div class="">
+                        <div class="flex-col justify-start gap-2 flex">
+                            <h2 class="text-right text-[#292929] text-5xl font-semibold font-['Segoe UI']">
+                                وضع الحشوة
+
+                            </h2>
+                        </div>
+                        <p
+                            class="mt-5 self-stretch text-right text-[#3d3d3d] text-base font-semibold font-['Segoe UI'] leading-7">
+                            يتم استخدام مواد تجميلية عالية الجودة تتناسب مع لون الأسنان الطبيعي لتعويض الأجزاء المفقودة.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- row one -->
+        <div class="max-w-6xl mx-auto px-5 md:px-10 my-10">
+            <div class="flex flex-row md:flex-row flex-col gap-3">
+                <div class="basis-1/2 flex items-start justify-start">
+                    <div
+                        class="origin-top-left rotate-[-4.34deg] text-right text-[#eb6a48] text-[81.27px] font-normal font-['Sniglet']">
+                        5
+                    </div>
+                    <img class="rounded-full" src="./assets/img/gurnyDetails/img5.png" alt="">
+                </div>
+                <div class="basis-1/2 flex items-center justify-center">
+                    <div class="">
+                        <div class="flex-col justify-start gap-2 flex">
+                            <h2 class="text-right text-[#292929] text-5xl font-semibold font-['Segoe UI']">
+                                التلميع والتأكد من الملاءمة
+                            </h2>
+                        </div>
+                        <p
+                            class="mt-5 self-stretch text-right text-[#3d3d3d] text-base font-semibold font-['Segoe UI'] leading-7">
+                            بعد الحشو، يتم تلميع السن وضبط الحشوة بدقة لضمان الراحة والمظهر الطبيعي.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- footer -->
+    <footer class="Footer w-full h-auto relative bg-[#fef4f2] p-3 border-t-2 border-white overflow-hidden mt-5">
+        <div class="Group122 w-[330.01px] h-auto hidden md:flex right-[-200px] top-0 absolute">
+            <div class="Ellipse4 w-[330.01px] h-[330.01px] left-0 top-0 absolute rounded-full border border-[#fab5a3]">
+            </div>
+            <div
+                class="Ellipse9 w-[291.41px] h-[291.41px] left-[28.02px] top-[208.59px] absolute rounded-full border-dashed border-2 border-[#fab5a3]">
+            </div>
+            <div
+                class="Ellipse7 w-[12.45px] h-[12.45px] left-[42.34px] top-[275.84px] absolute bg-[#eb6a48] rounded-full">
+            </div>
+        </div>
+        <nav
+            class="LinksNav w-full left-0 top-0 absolute border-b border-[#ebebeb] justify-center items-center gap-2.5 flex-wrap inline-flex">
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./index.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">الرئيسية</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./whySegam.html" class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">ليش
+                    سجام</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./services.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">الخدمات</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./doctors.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">أطباونا</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./old.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">تجاربكم</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./kids.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">Kids</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./withsegam.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">رحلتك مع سجام</a>
+            </div>
+            <div class="LinkHeader px-2.5 py-[30px] justify-center items-center gap-2.5 flex">
+                <a href="./blog.html"
+                    class=" text-right text-[#292929] text-base font-normal font-['Segoe UI']">المدونة</a>
+            </div>
+        </nav>
+        <div
+            class="Frame1000004149 w-full max-w-[1095px] mx-auto mt-[179px] flex flex-col md:flex-row justify-between items-start">
+            <div class="Frame1000004148 w-full md:w-[325px] flex-col justify-start items-start gap-9 inline-flex">
+                <div class="Frame1000004141 w-full flex-col justify-start items-start gap-3 flex">
+                    <img class="Image23 w-[241px] h-[89px]" src="./assets/img/homeimages/logo_dark.png" />
+                    <div class="text-justify text-[#7c7c7c] text-[15px] font-normal font-['Segoe UI'] leading-normal">
+                        نقدم أعلى مستويات الجودة والإحترافية في طب الأسنان لجميع مرضانا دون استثناء، بجانب خدمتهم بطريقة
+                        استثنائية غير مسبوقة من بداية تواصلهم لوصولهم وحتى بعد إنتهاء جلستهم
+                    </div>
+                </div>
+            </div>
+            <div class="Frame1000004147 flex flex-col md:flex-row justify-start items-start gap-[70px]">
+                <div class="Frame1000004145 w-full md:w-[330px] flex-col justify-start items-start gap-3 inline-flex">
+                    <div class="text-right text-black text-2xl font-semibold font-['Segoe UI']">موقعنا</div>
+                    <div class="Frame1000004151 flex-col justify-start items-start gap-8 flex">
+                        <div class="Frame1000004144 w-full flex-col justify-start items-start gap-[18px] flex">
+                            <div class="Frame1000004146 flex justify-end items-center gap-2 inline-flex">
+                                <div
+                                    class="text-right text-[#3d3d3d] text-base font-semibold font-['Segoe UI'] inline-flex gap-2">
+                                    <img src="./assets/img/homeimages/posation.svg" alt="">
+                                    <span>الرياض</span>
+                                    - الطريق الدائري الشمالي الفرعي
+                                </div>
+                            </div>
+                            <div class="247 text-right text-[#3d3d3d] text-base font-semibold font-['Segoe UI']">
+                                نخدمكم على مدار الساعة 24/7
+                            </div>
+                        </div>
+                        <div
+                            class="Frame1000004145 self-stretch h-[38px] flex-col justify-start items-start gap-[18px] flex">
+                            <div class="4001100 text-right"><span
+                                    class="text-[#3d3d3d] text-base font-semibold font-['Segoe UI'] leading-[27px]">ويوم
+                                    الجمعة<br />من الساعة </span><span
+                                    class="text-[#e8604b] text-base font-semibold font-['Segoe UI'] leading-[27px]">4:00
+                                    عصرًا</span><span
+                                    class="text-[#3d3d3d] text-base font-semibold font-['Segoe UI'] leading-[27px]">
+                                    وحتى الساعة </span><span
+                                    class="text-[#e8604b] text-base font-semibold font-['Segoe UI'] leading-[27px]">11:00
+                                    مساءً</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Frame1000004146 w-full md:w-[270px] flex-col justify-start items-start gap-3 inline-flex">
+                    <div class="text-right text-black text-2xl font-semibold font-['Segoe UI']">تابعنا من هنا</div>
+                    <div class="Frame1000003193 flex justify-end items-center gap-3.5">
+                        <div
+                            class="Frame2089 w-[38px] h-[38px] p-2.5 bg-[#eb6a48] rounded-[7px] border border-white/25 backdrop-blur-[14px] justify-center items-center gap-2.5 flex">
+                            <a href="" class=" w-4 h-4">
+                                <svg class="text-white" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div
+                            class="Frame2089 w-[38px] h-[38px] p-2.5 bg-[#eb6a48] rounded-[7px] border border-white/25 backdrop-blur-[14px] justify-center items-center gap-2.5 flex">
+                            <div class="Frame p-0.5 justify-end items-center gap-2.5 flex">
+                                <a href="" class=" w-5 h-5">
+                                    <span class="[&>svg]:h-5 [&>svg]:w-5">
+                                        <svg class="text-white" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 448 512">
+                                            <path
+                                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="Frame2089 w-[38px] h-[38px] p-2.5 bg-[#eb6a48] rounded-[7px] border border-white/25 backdrop-blur-[14px] justify-center items-center gap-2.5 flex">
+                            <div class="Frame2089 justify-end items-center gap-2.5 flex">
+                                <a href="" class=" w-5 h-5">
+                                    <span class="[&>svg]:h-5 [&>svg]:w-5 text-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                            viewBox="0 0 448 512">
+                                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                            <path
+                                                d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="Frame p-2.5 bg-[#eb6a48] rounded-[7px] border border-white/25 backdrop-blur-[14px] justify-center items-center gap-2.5 flex">
+                            <div class="Frame2089 justify-end items-center gap-2.5 flex">
+                                <a href="" class=" w-4 h-4">
+                                    <svg class="text-white" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                        viewBox="0 0 448 512">
+                                        <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                        <path
+                                            d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="Frame1000004150 w-auto h-16 p-2.5 mt-[30px] border-t border-white justify-center items-center gap-2.5">
+            <div class="2024 text-center text-black text-sm font-semibold font-['Segoe UI'] mt-3">جميع الحقوق محفوظة
+                لعيادة
+                سجام © 2024</div>
+        </div>
+
+        <div class="Group122 w-[330.01px] h-[500px] hidden md:flex left-[-250px] top-0 absolute">
+            <div class="Ellipse4 w-[330.01px] h-[330.01px] left-0 top-0 absolute rounded-full border border-[#fab5a3]">
+            </div>
+            <div
+                class="Ellipse9 w-[291.41px] h-[291.41px] left-[28.02px] top-[208.59px] absolute rounded-full border-dashed border-2 border-[#fab5a3]">
+            </div>
+            <div
+                class="Ellipse7 w-[12.45px] h-[12.45px] right-[32px] top-[260.84px] absolute bg-[#eb6a48] rounded-full">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
